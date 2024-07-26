@@ -7,6 +7,7 @@ const PhoneOtpLogin = ({ length = 4, onchangeOtp ,verified}) => {
     useEffect(() => {
         if (inputRefs.current[0]) {
             inputRefs.current[0].focus();
+          
         }
     }, []);
 

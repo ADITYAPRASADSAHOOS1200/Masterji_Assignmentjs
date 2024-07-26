@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PhoneOtpLogin from './PhoneOtpLogin';
 
 const Otp = () => {
@@ -8,6 +8,7 @@ const Otp = () => {
     const [verified,setVerified]=useState(null)
     const[otp,setOtp]=useState('')
     
+
 
     // Function to handle OTP submission and verification
     const handleOtpSubmit = (value) => {
